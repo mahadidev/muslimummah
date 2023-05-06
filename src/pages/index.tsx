@@ -1,4 +1,4 @@
-import { AfterSalah, Hero } from "@/components";
+import { AfterSalah, Hero, Stories } from "@/components";
 import Image from "next/image";
 import React from "react";
 
@@ -7,6 +7,7 @@ const HomePage = () => {
     <>
       <Hero />
       <AfterSalah />
+      <Stories />
     </>
   );
 };

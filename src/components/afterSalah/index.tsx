@@ -17,7 +17,7 @@ const AfterSalah = () => {
   return (
     <section>
       <div className="container">
-        <h1 className="mt-8 mb-4 text-base sm:text-2xl font-bold">
+        <h1 className="mt-8 mb-2 sm:mb-4 text-base sm:text-2xl font-bold">
           বিভিন্ন সমস্যার সমাধান
         </h1>
 
@@ -103,6 +103,29 @@ const AfterSalah = () => {
             ></path>
           </svg>
         </a>
+      </div>
+
+      <div className="container mt-8">
+        <div className="w-full h-max rounded-md bg-white px-4 sm:px-6 py-8">
+          <h2 className="text-base sm:text-2xl mb-2">নতুন দোয়া পোষ্ট করুন।</h2>
+          <p className="text-sm sm:text-base">
+            আপনি ও নতুন দোয়া পোস্ট করে দাওয়াতি কাজের সওয়াব নিতে পারেন।
+          </p>
+          <a
+            href="#"
+            className="w-max flex justify-end items-center ml-auto mt-2 py-2 sm:py-2 px-2 sm:px-4 text-sm sm:text-base font-medium text-center rounded-lg border bg-white text-gray-900 border-gray-300 hover:bg-gray-100"
+          >
+            <svg
+              className="mr-2 -ml-1 w-5 h-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path>
+            </svg>
+            পোস্ট করুন
+          </a>
+        </div>
       </div>
     </section>
   );
