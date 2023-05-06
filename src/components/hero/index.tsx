@@ -44,17 +44,17 @@ const Hero = () => {
               ></path>
             </svg>
           </a>
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
+          <h1 className="mb-4 text-base sm:text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
             আপনার দিন শুরু হোক সুন্নাহ অনুযায়ী
           </h1>
-          <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
+          <p className="mb-8 text-sm sm:text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
             এই এপ এ বিভিন্ন হাসিস, আমল ও ইসলামিক ভিডিও পাবেন কোনো বিজ্ঞাপন
             ছাড়াই। আপনি ও হাদিস এড করে আমাদের দাওয়াতি কাজে সহযোগিয়া করতে পারেন।
           </p>
-          <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+          <div className="flex flex-col mb-4 sm:mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <a
               href="#"
-              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
+              className="inline-flex justify-center items-center py-1 sm:py-3 px-2 sm:px-5 text-sm sm:text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
             >
               শুরু করুন
               <svg
@@ -72,7 +72,7 @@ const Hero = () => {
             </a>
             <a
               href="#"
-              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 "
+              className="inline-flex justify-center items-center py-1 sm:py-3 px-2 sm:px-5 text-sm sm:text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 "
             >
               <svg
                 className="mr-2 -ml-1 w-5 h-5"
@@ -86,7 +86,7 @@ const Hero = () => {
             </a>
           </div>
           <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-            <div className="grid grid-cols-4 gap-2">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
               {boxes.map(
                 (
                   item: {
@@ -98,7 +98,7 @@ const Hero = () => {
                     className="w-full bg-primary-100 px-4 py-3 rounded-md"
                     key={index}
                   >
-                    <h1 className="text-lg">{item.label}</h1>
+                    <h1 className="text-sm sm:text-lg">{item.label}</h1>
                   </div>
                 )
               )}
