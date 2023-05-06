@@ -1,15 +1,12 @@
+import { Hero } from "@/components";
+import Image from "next/image";
 import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="w-full h-screen flex items-center justify-center">
-      <div>
-        <h1 className="text-2xl">HomePage</h1>
-        <a className="underline text-center mx-auto" href="/shop">
-          Shop
-        </a>
-      </div>
-    </div>
+    <>
+      <Hero />
+    </>
   );
 };
 
