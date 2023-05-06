@@ -68,14 +68,14 @@ const AfterSalah = () => {
                   className="hidden"
                   aria-labelledby={`accordion-open-heading-${index}`}
                 >
-                  <div className="p-5 bg-gray-50 border border-b-0 border-gray-200 ">
-                    <p className="text-base mb-3 text-gray-800 font-semibold">
+                  <div className="p-4 sm:p-5 bg-gray-50 border border-b-0 border-gray-200 ">
+                    <p className="text-sm md:text-base mb-3 text-gray-800 font-semibold">
                       {item.arabic}
                     </p>
-                    <p className="text-base mb-3 text-gray-800 font-semibold">
+                    <p className="text-sm md:text-base mb-3 text-gray-800 font-semibold">
                       উচ্চারণ : {item.bangla}
                     </p>
-                    <p className="text-base text-gray-500 ">
+                    <p className="text-sm md:text-base text-gray-500 ">
                       অর্থ : {item.meaning}
                     </p>
                   </div>
