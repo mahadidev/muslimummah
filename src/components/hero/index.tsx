@@ -54,7 +54,7 @@ const Hero = () => {
           <div className="flex flex-col mb-4 sm:mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <a
               href="#"
-              className="inline-flex justify-center items-center py-1 sm:py-3 px-2 sm:px-5 text-sm sm:text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
+              className="inline-flex justify-center items-center py-2 sm:py-3 px-2 sm:px-5 text-sm sm:text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300"
             >
               শুরু করুন
               <svg
@@ -72,7 +72,7 @@ const Hero = () => {
             </a>
             <a
               href="#"
-              className="inline-flex justify-center items-center py-1 sm:py-3 px-2 sm:px-5 text-sm sm:text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 "
+              className="inline-flex justify-center items-center py-2 sm:py-3 px-2 sm:px-5 text-sm sm:text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 "
             >
               <svg
                 className="mr-2 -ml-1 w-5 h-5"
