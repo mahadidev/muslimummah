@@ -44,10 +44,10 @@ const Hero = () => {
               ></path>
             </svg>
           </a>
-          <h1 className="mb-4 text-base sm:text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
+          <h1 className="mb-2 sm:mb-4 text-base sm:text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
             আপনার দিন শুরু হোক সুন্নাহ অনুযায়ী
           </h1>
-          <p className="mb-8 text-sm sm:text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
+          <p className="mb-4 sm:mb-8 text-sm sm:text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
             এই এপ এ বিভিন্ন হাসিস, আমল ও ইসলামিক ভিডিও পাবেন কোনো বিজ্ঞাপন
             ছাড়াই। আপনি ও হাদিস এড করে আমাদের দাওয়াতি কাজে সহযোগিয়া করতে পারেন।
           </p>
